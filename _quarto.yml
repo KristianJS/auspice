@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "AUSPICE"
+  description: "Advancing Understanding of the Signal-to-noise Paradox and its Impacts on Climate Ensembles"
+  favicon: assets/favicon.png
+  # Once the site is live, put its address here (used for RSS and social previews):
+  # site-url: https://YOUR-GITHUB-USERNAME.github.io/auspice
+  page-navigation: false
+  navbar:
+    logo: assets/auspice-logo-small.png
+    logo-alt: "AUSPICE logo"
+    title: false
+    right:
+      - text: "Project"
+        href: index.qmd
+      - text: "Research"
+        href: publications.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Blog"
+        href: blog.qmd
+  page-footer:
+    left: |
+      AUSPICE is funded by the Natural Environment Research Council (NERC),
+      part of UK Research and Innovation. Grant reference: NE/XXXXXXX/1.
+    right: |
+      [Contact](mailto:auspice@example.ac.uk)
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

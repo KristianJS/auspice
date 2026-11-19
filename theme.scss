@@ -1,0 +1,144 @@
+/*-- scss:defaults --*/
+
+// Colours sampled from the AUSPICE logo
+$auspice-orange: #E8650F;
+$auspice-amber:  #F7A23B;
+$auspice-brown:  #3D1206;
+$auspice-cream:  #FFF7EE;
+$auspice-ink:    #2A1E19;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap');
+
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 700;
+$font-size-root: 18px;
+
+$body-bg: #ffffff;
+$body-color: $auspice-ink;
+$primary: $auspice-orange;
+$link-color: #B8480A;
+
+$navbar-bg: $auspice-brown;
+$navbar-fg: #F6E6D8;
+$navbar-hl: $auspice-amber;
+
+$footer-bg: $auspice-brown;
+$footer-fg: #F6E6D8;
+
+/*-- scss:rules --*/
+
+.navbar-brand img { max-height: 46px; }
+.navbar .nav-link { font-family: $headings-font-family; font-weight: 600; letter-spacing: .02em; }
+
+h1, h2, h3 { color: $auspice-brown; }
+h2 { margin-top: 2.2rem; }
+.title { color: $auspice-brown; }
+
+a { text-underline-offset: 2px; }
+
+// ---------- Home page hero ----------
+.hero {
+  background: linear-gradient(160deg, $auspice-cream 0%, #FDE6CC 100%);
+  border-bottom: 4px solid $auspice-orange;
+  margin-top: -1rem;
+  margin-bottom: 2.5rem;
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+}
+.hero img { width: min(420px, 85%); height: auto; }
+.hero .expansion {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  color: $auspice-brown;
+  font-size: 1.15rem;
+  max-width: 40rem;
+  margin: 1.25rem auto 0;
+  line-height: 1.45;
+}
+
+.lead-para { font-size: 1.15rem; }
+
+// ---------- Goal cards ----------
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.1rem;
+  margin: 1.25rem 0 2rem;
+}
+@media (max-width: 600px) { .goal-grid { grid-template-columns: 1fr; } }
+.goal-card {
+  background: $auspice-cream;
+  border-top: 4px solid $auspice-orange;
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+}
+.goal-card .num {
+  font-family: $headings-font-family;
+  font-weight: 800;
+  color: $auspice-orange;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.goal-card h3 { font-size: 1.05rem; margin: .5rem 0 .4rem; }
+.goal-card p { margin: 0; font-size: .95rem; }
+
+.partners { color: #6b5148; font-size: .95rem; }
+
+// ---------- People ----------
+.inst { margin-top: 2.2rem; }
+.inst h2 { margin-top: 0; border-bottom: 2px solid #F3D6BB; padding-bottom: .3rem; }
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.person {
+  text-align: center;
+  padding: 1rem .5rem;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #F1E2D4;
+}
+.person .avatar {
+  width: 84px; height: 84px;
+  border-radius: 50%;
+  margin: 0 auto .6rem;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(145deg, $auspice-amber, $auspice-orange);
+  color: #fff;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.6rem;
+  overflow: hidden;
+}
+.person .avatar img { width: 100%; height: 100%; object-fit: cover; }
+.person .name { font-weight: 600; line-height: 1.25; }
+.person .role { color: $auspice-orange; font-size: .85rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin-top: .2rem; }
+
+// ---------- Publications ----------
+.pub-list { list-style: none; padding-left: 0; }
+.pub-list li {
+  padding: .8rem 1rem;
+  border-left: 3px solid $auspice-amber;
+  background: #FFFBF6;
+  margin-bottom: .7rem;
+}
+.pub-list .pub-title { font-weight: 600; }
+.pub-list .pub-meta { color: #6b5148; font-size: .95rem; }
+.placeholder-note {
+  background: #FFF3D6;
+  border: 1px dashed $auspice-amber;
+  padding: .6rem 1rem;
+  border-radius: 6px;
+  font-size: .95rem;
+}
+
+// ---------- Footer ----------
+.nav-footer { font-size: .9rem; }
+.nav-footer a { color: $auspice-amber; }
+
+// ---------- Blog listing ----------
+.quarto-listing .listing-title, .quarto-post .listing-title { color: $auspice-brown; font-family: $headings-font-family; font-weight: 700; }
+.quarto-post .listing-title a, .quarto-post a { text-decoration: none; }

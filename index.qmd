@@ -1,0 +1,67 @@
+---
+pagetitle: "AUSPICE | Signal-to-noise Paradox in Climate Ensembles"
+---
+
+::: {.hero .column-screen}
+![](assets/auspice-logo.png){fig-alt="AUSPICE logo"}
+
+::: expansion
+Advancing Understanding of the Signal-to-noise Paradox and its Impacts on Climate Ensembles
+:::
+:::
+
+## The challenge
+
+::: lead-para
+The **signal-to-noise paradox** in climate forecasting refers to counterintuitive situations where the real world is better predicted than the forecast model suggests.
+:::
+
+It arises when predictable mid-latitude atmospheric signals and associated climate impacts are significantly underestimated compared with observations. This discrepancy poses a challenge, as weak signals are statistically problematic to detect, yet underlying dynamical and physical mechanisms, such as remote teleconnections, coupled ocean-atmosphere processes and atmospheric feedbacks, likely play a critical role in the signal-to-noise problem.
+
+## Our ambition
+
+The ambition of AUSPICE is to explain the signal-to-noise paradox by integrating robust statistical methods with physical experimentation and reasoning using causal networks. In order to correct for signal-to-noise errors, the causal networks will be used to calibrate climate predictions and projections, leading to self-consistent, physically grounded climate storylines and more plausible bounds for future climates.
+
+## Project goals
+
+::: goal-grid
+::: goal-card
+[01]{.num}
+
+### Detect
+
+Apply robust statistical methods to identify where and when predictable signals are underestimated by climate models.
+:::
+
+::: goal-card
+[02]{.num}
+
+### Explain
+
+Use physical experiments to probe the mechanisms behind the paradox, including remote teleconnections, coupled ocean-atmosphere processes and atmospheric feedbacks.
+:::
+
+::: goal-card
+[03]{.num}
+
+### Connect
+
+Build causal networks that link these processes to the signal-to-noise errors they generate.
+:::
+
+::: goal-card
+[04]{.num}
+
+### Calibrate
+
+Use the causal networks to correct climate predictions and projections, producing physically grounded storylines and more plausible bounds for future climates.
+:::
+:::
+
+## Partners
+
+::: partners
+University of Oxford · University of Reading · UK Met Office · European Centre for Medium-Range Weather Forecasts (ECMWF) · NSF National Center for Atmospheric Research (NCAR)
+
+[Meet the team →](people.qmd)
+:::

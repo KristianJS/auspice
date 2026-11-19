@@ -1,0 +1,65 @@
+---
+title: "Research & Publications"
+description: "Papers, preprints, datasets and talks arising from AUSPICE."
+---
+
+::: placeholder-note
+**Placeholder content.** The entries below are examples showing the layout. Replace them with real outputs as they appear.
+:::
+
+<!--
+HOW TO ADD AN ENTRY: copy one <li>…</li> block and edit it.
+Put newest entries at the top of each section.
+-->
+
+## Peer-reviewed papers
+
+```{=html}
+<ul class="pub-list">
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.xxxx/xxxxx">Title of the first AUSPICE paper</a></div>
+    <div class="pub-meta">Author A, Author B, Author C (2027). <em>Journal Name</em>, 00, 000–000.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.xxxx/xxxxx">Title of a second paper</a></div>
+    <div class="pub-meta">Author D, Author E (2027). <em>Journal Name</em>, 00, 000–000.</div>
+  </li>
+</ul>
+```
+
+## Preprints
+
+```{=html}
+<ul class="pub-list">
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.xxxx/xxxxx">Title of a preprint</a></div>
+    <div class="pub-meta">Author A, Author F (2027). Submitted to <em>Journal Name</em>. Preprint on EGUsphere / arXiv / ESS Open Archive.</div>
+  </li>
+</ul>
+```
+
+## Data & code
+
+```{=html}
+<ul class="pub-list">
+  <li>
+    <div class="pub-title"><a href="https://github.com/">Name of software package or dataset</a></div>
+    <div class="pub-meta">Short description of what it contains. Archived at Zenodo / CEDA (DOI to follow).</div>
+  </li>
+</ul>
+```
+
+## Talks & presentations
+
+```{=html}
+<ul class="pub-list">
+  <li>
+    <div class="pub-title">Title of conference talk</div>
+    <div class="pub-meta">Presenter Name. EGU General Assembly, Vienna, 2027.</div>
+  </li>
+</ul>
+```
+
+## Related work
+
+Key background publications on the signal-to-noise paradox can be listed here.
