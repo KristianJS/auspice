@@ -1,5 +1,7 @@
 # AUSPICE project website
 
+Built using Claude Opus 5.5.
+
 Source for the AUSPICE website, built with [Quarto](https://quarto.org) and published free on GitHub Pages.
 Every change pushed to the `main` branch rebuilds and republishes the site automatically, usually within 1–2 minutes.
 
