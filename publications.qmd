@@ -13,6 +13,10 @@ Keep each list in date order, newest at the top.
 ```{=html}
 <ul class="pub-list">
   <li>
+    <div class="pub-title"><a href="https://doi.org/10.1029/2026GL124949" target="_blank" rel="noopener">The Influence of ENSO on the Winter NAO Is Mostly Unpredictable Noise</a></div>
+    <div class="pub-meta">Strommen, K. (2026). <em>Geophysical Research Letters</em>, 53(22), e124949.</div>
+  </li>
+  <li>
     <div class="pub-title"><a href="https://doi.org/10.1002/met.70223" target="_blank" rel="noopener">A generalisation of the signal-to-noise ratio using proper scoring rules</a></div>
     <div class="pub-meta">Bröcker, J. &amp; Bach, E. (2026). <em>Meteorological Applications</em>, 33(4), e70223.</div>
   </li>
