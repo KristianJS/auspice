@@ -3,13 +3,9 @@ title: "Research & Publications"
 description: "Papers, preprints, datasets and talks arising from AUSPICE."
 ---
 
-::: placeholder-note
-**Placeholder content.** The entries below are examples showing the layout. Replace them with real outputs as they appear.
-:::
-
 <!--
 HOW TO ADD AN ENTRY: copy one <li>…</li> block and edit it.
-Put newest entries at the top of each section.
+Keep each list in date order, newest at the top.
 -->
 
 ## Peer-reviewed papers
@@ -17,16 +13,17 @@ Put newest entries at the top of each section.
 ```{=html}
 <ul class="pub-list">
   <li>
-    <div class="pub-title"><a href="https://doi.org/10.xxxx/xxxxx">Title of the first AUSPICE paper</a></div>
-    <div class="pub-meta">Author A, Author B, Author C (2027). <em>Journal Name</em>, 00, 000–000.</div>
+    <div class="pub-title"><a href="https://doi.org/10.1002/met.70223" target="_blank" rel="noopener">A generalisation of the signal-to-noise ratio using proper scoring rules</a></div>
+    <div class="pub-meta">Bröcker, J. &amp; Bach, E. (2026). <em>Meteorological Applications</em>, 33(4), e70223.</div>
   </li>
   <li>
-    <div class="pub-title"><a href="https://doi.org/10.xxxx/xxxxx">Title of a second paper</a></div>
-    <div class="pub-meta">Author D, Author E (2027). <em>Journal Name</em>, 00, 000–000.</div>
+    <div class="pub-title"><a href="https://doi.org/10.1002/qj.70224" target="_blank" rel="noopener">Ensemble reliability and the signal-to-noise paradox in ECMWF subseasonal forecasts</a></div>
+    <div class="pub-meta">Roberts, C.D. &amp; Vitart, F. (2026). <em>Quarterly Journal of the Royal Meteorological Society</em>, 152(779), e70224.</div>
   </li>
 </ul>
 ```
 
+<!--
 ## Preprints
 
 ```{=html}
@@ -59,7 +56,53 @@ Put newest entries at the top of each section.
   </li>
 </ul>
 ```
+-->
 
 ## Related work
 
-Key background publications on the signal-to-noise paradox can be listed here.
+Key background publications on the signal-to-noise paradox.
+
+```{=html}
+<ul class="pub-list">
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1002/qj.4952" target="_blank" rel="noopener">Signal-to-noise errors in early winter Euro-Atlantic predictions linked to weak ENSO teleconnections and pervasive jet biases</a></div>
+    <div class="pub-meta">O'Reilly, C.H. (2025). <em>Quarterly Journal of the Royal Meteorological Society</em>, 151(769), e4952.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1038/s41612-023-00434-y" target="_blank" rel="noopener">Reduced Southern Ocean warming enhances global skill and signal-to-noise in an eddy-resolving decadal prediction system</a></div>
+    <div class="pub-meta">Yeager, S.G., Chang, P., Danabasoglu, G. et al. (2023). <em>npj Climate and Atmospheric Science</em>, 6, 107.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1029/2023GL103710" target="_blank" rel="noopener">On the relationship between reliability diagrams and the “signal-to-noise paradox”</a></div>
+    <div class="pub-meta">Strommen, K., MacRae, M. &amp; Christensen, H. (2023). <em>Geophysical Research Letters</em>, 50, e2023GL103710.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1038/s41612-022-00280-4" target="_blank" rel="noopener">Missing eddy feedback may explain weak signal-to-noise ratios in climate predictions</a></div>
+    <div class="pub-meta">Hardiman, S.C., Dunstone, N.J., Scaife, A.A. et al. (2022). <em>npj Climate and Atmospheric Science</em>, 5, 57.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1002/qj.3446" target="_blank" rel="noopener">How confident are predictability estimates of the winter North Atlantic Oscillation?</a></div>
+    <div class="pub-meta">Weisheimer, A., Decremer, D., MacLeod, D. et al. (2019). <em>Quarterly Journal of the Royal Meteorological Society</em>, 145(Suppl. 1), 140–159.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1002/qj.3414" target="_blank" rel="noopener">Signal and noise in regime systems: a hypothesis on the predictability of the North Atlantic Oscillation</a></div>
+    <div class="pub-meta">Strommen, K. &amp; Palmer, T.N. (2019). <em>Quarterly Journal of the Royal Meteorological Society</em>, 145, 147–163.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1038/s41612-018-0038-4" target="_blank" rel="noopener">A signal-to-noise paradox in climate science</a></div>
+    <div class="pub-meta">Scaife, A.A. &amp; Smith, D. (2018). <em>npj Climate and Atmospheric Science</em>, 1, 28.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1038/ngeo2824" target="_blank" rel="noopener">Skilful predictions of the winter North Atlantic Oscillation one year ahead</a></div>
+    <div class="pub-meta">Dunstone, N., Smith, D., Scaife, A. et al. (2016). <em>Nature Geoscience</em>, 9, 809–814.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1175/JCLI-D-15-0196.1" target="_blank" rel="noopener">A Bayesian framework for verification and recalibration of ensemble forecasts: how uncertain is NAO predictability?</a></div>
+    <div class="pub-meta">Siegert, S., Stephenson, D.B., Sansom, P.G., Scaife, A.A., Eade, R. &amp; Arribas, A. (2016). <em>Journal of Climate</em>, 29, 995–1012.</div>
+  </li>
+  <li>
+    <div class="pub-title"><a href="https://doi.org/10.1002/2014GL061146" target="_blank" rel="noopener">Do seasonal-to-decadal climate predictions underestimate the predictability of the real world?</a></div>
+    <div class="pub-meta">Eade, R., Smith, D., Scaife, A., Wallace, E., Dunstone, N., Hermanson, L. &amp; Robinson, N. (2014). <em>Geophysical Research Letters</em>, 41, 5620–5628.</div>
+  </li>
+</ul>
+```
