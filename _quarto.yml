@@ -6,8 +6,7 @@ website:
   title: "AUSPICE"
   description: "Advancing Understanding of the Signal-to-noise Paradox and its Impacts on Climate Ensembles"
   favicon: assets/favicon.png
-  # Once the site is live, put its address here (used for RSS and social previews):
-  # site-url: https://YOUR-GITHUB-USERNAME.github.io/auspice
+  site-url: https://auspice.org.uk/
   page-navigation: false
   navbar:
     logo: assets/auspice-logo-small.png
@@ -31,7 +30,7 @@ website:
         aria-label: "UK Research and Innovation"
         text: "![](/assets/ukri-logo.png){.ukri-logo fig-alt=\"UK Research and Innovation logo\"}"
     right: |
-      [Contact](mailto:auspice@example.ac.uk)
+      [Contact](mailto:kristian.strommen@physics.ox.ac.uk)
 
 format:
   html:
