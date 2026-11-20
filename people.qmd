@@ -5,55 +5,57 @@ description: "The AUSPICE team spans five institutions in the UK, Europe and the
 
 <!--
 HOW TO EDIT THIS PAGE
-- To add a photo: put a square image in assets/people/ (e.g. assets/people/weisheimer.jpg)
-  and replace the initials inside <div class="avatar">…</div> with
-  <img src="assets/people/weisheimer.jpg" alt="Antje Weisheimer">
-- To link a name to a profile page, wrap it: <a href="https://...">Dr Antje Weisheimer</a>
-- To add a role, add or edit a <div class="role">…</div> line under the name.
+Each person is one <div class="person">…</div> block. Copy one to add someone.
+- Photo: put a square image (ideally 300×300) in assets/people/ and point the <img src="…"> at it.
+  No photo yet? Replace the <img …> with initials, e.g. <div class="avatar">AB</div>.
+- Link: the href="…" on the name. Links open in a new tab.
+- Role: optional <div class="role">…</div> line under the name.
 -->
 
 ```{=html}
 <section class="inst">
   <h2>University of Oxford</h2>
   <div class="people-grid">
-    <div class="person"><div class="avatar">AW</div><div class="name">Dr Antje Weisheimer</div><div class="role">Project Lead</div></div>
-    <div class="person"><div class="avatar">KS</div><div class="name">Dr Kristian Strommen</div></div>
-    <div class="person"><div class="avatar">TW</div><div class="name">Prof Tim Woollings</div></div>
-    <div class="person"><div class="avatar">SO</div><div class="name">Dr Scott Osprey</div></div>
+    <div class="person"><a class="avatar" href="https://www.physics.ox.ac.uk/our-people/weisheimer" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/antje_weisheimer.jpg" alt=""></a><div class="name"><a href="https://www.physics.ox.ac.uk/our-people/weisheimer" target="_blank" rel="noopener">Dr Antje Weisheimer</a></div><div class="role">Project Lead</div></div>
+    <div class="person"><a class="avatar" href="https://sites.google.com/view/kristian-strommen/home" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/kristian_strommen.jpg" alt=""></a><div class="name"><a href="https://sites.google.com/view/kristian-strommen/home" target="_blank" rel="noopener">Dr Kristian Strommen</a></div></div>
+    <div class="person"><a class="avatar" href="https://www.physics.ox.ac.uk/our-people/woollings" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/tim_woollings.jpg" alt=""></a><div class="name"><a href="https://www.physics.ox.ac.uk/our-people/woollings" target="_blank" rel="noopener">Prof Tim Woollings</a></div></div>
+    <div class="person"><a class="avatar" href="https://www.physics.ox.ac.uk/our-people/osprey" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/scott_osprey.jpg" alt=""></a><div class="name"><a href="https://www.physics.ox.ac.uk/our-people/osprey" target="_blank" rel="noopener">Dr Scott Osprey</a></div></div>
+    <div class="person"><a class="avatar" href="https://ryosatoh.github.io/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/ryo_satoh.jpg" alt=""></a><div class="name"><a href="https://ryosatoh.github.io/" target="_blank" rel="noopener">Dr Ryo Satoh</a></div></div>
   </div>
 </section>
 
 <section class="inst">
   <h2>University of Reading</h2>
   <div class="people-grid">
-    <div class="person"><div class="avatar">CO</div><div class="name">Dr Chris O'Reilly</div></div>
-    <div class="person"><div class="avatar">JR</div><div class="name">Prof Jon Robson</div></div>
-    <div class="person"><div class="avatar">TS</div><div class="name">Prof Ted Shepherd</div></div>
-    <div class="person"><div class="avatar">JB</div><div class="name">Dr Jochen Broecker</div></div>
-    <div class="person"><div class="avatar">EB</div><div class="name">Dr Eviatar Bach</div></div>
-    <div class="person"><div class="avatar">RS</div><div class="name">Prof Rowan Sutton</div></div>
+    <div class="person"><a class="avatar" href="https://www.choreilly.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/chris_oreilly.jpg" alt=""></a><div class="name"><a href="https://www.choreilly.com/" target="_blank" rel="noopener">Dr Chris O&#x27;Reilly</a></div></div>
+    <div class="person"><a class="avatar" href="https://www.personal.reading.ac.uk/~pb901687/home/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/jon_robson.jpg" alt=""></a><div class="name"><a href="https://www.personal.reading.ac.uk/~pb901687/home/" target="_blank" rel="noopener">Prof Jon Robson</a></div></div>
+    <div class="person"><a class="avatar" href="https://www.met.reading.ac.uk/~sj903980/Home.html" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/ted_shepherd.jpg" alt=""></a><div class="name"><a href="https://www.met.reading.ac.uk/~sj903980/Home.html" target="_blank" rel="noopener">Prof Ted Shepherd</a></div></div>
+    <div class="person"><a class="avatar" href="https://research.reading.ac.uk/meteorology/people/jochen-broecker/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/jochen_broecker.jpg" alt=""></a><div class="name"><a href="https://research.reading.ac.uk/meteorology/people/jochen-broecker/" target="_blank" rel="noopener">Dr Jochen Broecker</a></div></div>
+    <div class="person"><a class="avatar" href="https://eviatarbach.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/eviatar_bach.jpg" alt=""></a><div class="name"><a href="https://eviatarbach.com/" target="_blank" rel="noopener">Dr Eviatar Bach</a></div></div>
+    <div class="person"><a class="avatar" href="https://research.reading.ac.uk/meteorology/people/rowan-sutton/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/rowan_sutton.jpg" alt=""></a><div class="name"><a href="https://research.reading.ac.uk/meteorology/people/rowan-sutton/" target="_blank" rel="noopener">Prof Rowan Sutton</a></div></div>
   </div>
 </section>
 
 <section class="inst">
   <h2>UK Met Office</h2>
   <div class="people-grid">
-    <div class="person"><div class="avatar">ND</div><div class="name">Dr Nick Dunstone</div></div>
+    <div class="person"><a class="avatar" href="https://www.metoffice.gov.uk/research/people/nick-dunstone" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/nick_dunstone.jpg" alt=""></a><div class="name"><a href="https://www.metoffice.gov.uk/research/people/nick-dunstone" target="_blank" rel="noopener">Dr Nick Dunstone</a></div></div>
   </div>
 </section>
 
 <section class="inst">
   <h2>ECMWF</h2>
   <div class="people-grid">
-    <div class="person"><div class="avatar">CR</div><div class="name">Dr Chris Roberts</div></div>
+    <div class="person"><a class="avatar" href="https://www.ecmwf.int/node/22476" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/chris_roberts.jpg" alt=""></a><div class="name"><a href="https://www.ecmwf.int/node/22476" target="_blank" rel="noopener">Dr Chris Roberts</a></div></div>
   </div>
 </section>
 
 <section class="inst">
   <h2>NCAR</h2>
   <div class="people-grid">
-    <div class="person"><div class="avatar">SY</div><div class="name">Dr Steve Yeager</div></div>
-    <div class="person"><div class="avatar">CD</div><div class="name">Dr Clara Deser</div></div>
+    <div class="person"><a class="avatar" href="https://impacts.ucar.edu/en/persons/stephen-yeager/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/steve_yeager.jpg" alt=""></a><div class="name"><a href="https://impacts.ucar.edu/en/persons/stephen-yeager/" target="_blank" rel="noopener">Dr Steve Yeager</a></div></div>
+    <div class="person"><a class="avatar" href="https://staff.cgd.ucar.edu/cdeser/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/people/clara_deser.jpg" alt=""></a><div class="name"><a href="https://staff.cgd.ucar.edu/cdeser/" target="_blank" rel="noopener">Dr Clara Deser</a></div></div>
   </div>
 </section>
+
 ```

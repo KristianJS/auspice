@@ -90,7 +90,7 @@ a { text-underline-offset: 2px; }
 .inst h2 { margin-top: 0; border-bottom: 2px solid #F3D6BB; padding-bottom: .3rem; }
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -102,7 +102,7 @@ a { text-underline-offset: 2px; }
   border: 1px solid #F1E2D4;
 }
 .person .avatar {
-  width: 84px; height: 84px;
+  width: 110px; height: 110px;
   border-radius: 50%;
   margin: 0 auto .6rem;
   display: flex; align-items: center; justify-content: center;
@@ -115,6 +115,9 @@ a { text-underline-offset: 2px; }
 }
 .person .avatar img { width: 100%; height: 100%; object-fit: cover; }
 .person .name { font-weight: 600; line-height: 1.25; }
+.person .name a { color: inherit; text-decoration: none; border-bottom: 1px solid #F3C9A3; }
+.person .name a:hover { color: $link-color; border-bottom-color: $auspice-orange; }
+a.avatar { text-decoration: none; }
 .person .role { color: $auspice-orange; font-size: .85rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin-top: .2rem; }
 
 // ---------- Publications ----------
@@ -136,7 +139,14 @@ a { text-underline-offset: 2px; }
 }
 
 // ---------- Footer ----------
-.nav-footer { font-size: .9rem; }
+.nav-footer { font-size: .9rem; align-items: center; }
+.nav-footer-center .ukri-logo, .nav-footer-center img {
+  height: 52px; width: auto;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
 .nav-footer a { color: $auspice-amber; }
 
 // ---------- Blog listing ----------

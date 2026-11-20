@@ -25,7 +25,11 @@ website:
   page-footer:
     left: |
       AUSPICE is funded by the Natural Environment Research Council (NERC),
-      part of UK Research and Innovation. Grant reference: NE/XXXXXXX/1.
+      part of UK Research and Innovation. Grant reference: NE/C002165/1.
+    center:
+      - href: https://www.ukri.org/councils/nerc/
+        aria-label: "UK Research and Innovation"
+        text: "![](/assets/ukri-logo.png){.ukri-logo fig-alt=\"UK Research and Innovation logo\"}"
     right: |
       [Contact](mailto:auspice@example.ac.uk)
 
